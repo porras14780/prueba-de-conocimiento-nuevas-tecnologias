@@ -256,7 +256,7 @@ def imprimir_resultados(resultados):
     for resultado in resultados:
         print(f"{resultado['Cabina']:<10} {resultado['Puntaje']:<10} {resultado['Estado de Funcionamiento']:<30}")
 
-# Ejecutar el programa
+# Ejecutar el programaaaa
 num_cabinas = 4
 resultados = procesar_cabinas(num_cabinas)
 imprimir_resultados(resultados)
